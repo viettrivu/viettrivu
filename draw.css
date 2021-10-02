@@ -9,7 +9,7 @@
     background-color: grey;
     padding: 5px;
     overflow: hidden;
-    font-size: 14px;
+    font-size: 24px;
 }
 #menu #left{
     color: white;
@@ -75,7 +75,21 @@ img{
         background-color: grey;
         padding: 4px;
         overflow: hidden;
-        font-size: 8px;
+        font-size: 18px;
+    }
+        #menu #left{
+        color: white;
+        padding: 8px 10px;
+        float: left;
+        text-align: center;
+        text-decoration: none
+    }
+    #menu #right{
+        color: white;
+        padding: 8px 10px;
+        float: right;
+        text-align: center;
+        text-decoration: none;
     }
     #container{
         display: flex;
