@@ -72,6 +72,42 @@ img{
     width:90px;
     height: 110px
 }
+@media(max-width: 1000px){
+    #menu{
+        background-color: grey;
+        padding: 14px;
+        overflow: hidden;
+        font-size: 22px;
+    }
+        #menu #left{
+        color: white;
+        font-size: 22px
+        padding: 8px 10px;
+        float: left;
+        text-align: center;
+        text-decoration: none
+    }
+    #menu #right{
+        color: white;
+        font-size: 22px
+        padding: 8px 10px;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+    }
+    #container{
+        display: flex;
+        flex-wrap: wrap
+    }
+    #left-side{
+        flex:100%;
+        background-color:#fffdfdf2
+    }
+    #right-side{
+        flex:100%;
+        background-color:white
+    }
+}
 @media(max-width: 800px){
     #menu{
         background-color: grey;
