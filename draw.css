@@ -9,7 +9,7 @@
     background-color: grey;
     padding: 5px;
     overflow: hidden;
-    font-size: 11px;
+    font-size: 14px;
 }
 #menu #left{
     color: white;
@@ -71,6 +71,12 @@ img{
     height: 110px
 }
 @media(max-width: 800px){
+    #menu{
+        background-color: grey;
+        padding: 4px;
+        overflow: hidden;
+        font-size: 8px;
+    }
     #container{
         display: flex;
         flex-wrap: wrap
